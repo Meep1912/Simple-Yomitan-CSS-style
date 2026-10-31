@@ -1,0 +1,27 @@
+/* hide scrollbar */
+::-webkit-scrollbar { display: none; }
+
+/* hide tags (5-dan, transitive, dictionary labels) */
+.tag,
+.tag-list,
+.definition-tag-list,
+.headword-list-tag-list { display: none; }
+
+/* hide inflection info (imperative / potential « continuative) */
+.inflection-rule-chains,
+.inflection-rule-chain,
+.inflection-list { display: none; }
+
+/* hide extras inside JMdict entries: examples, notes, see-also, references */
+[data-sc-content="example-sentence"],
+[data-sc-content="extra-info"],
+[data-sc-content="xref"],
+[data-sc-content="references"],
+[data-sc-content="attribution"] { display: none; }
+
+/* hide audio button and the "current expression" marker */
+.action-button[data-action="play-audio"],
+.term-expression-current-indicator { display: none; }
+
+/* colours */
+.kanji-link, .source-text, .glossary { color: #ebffff; }
